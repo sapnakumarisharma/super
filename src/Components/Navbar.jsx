@@ -61,4 +61,4 @@ export default Navbar
 
 
 
-// onClick={()=>{props.x('')}}
+// onClick={()=>{props.x('')}}g
