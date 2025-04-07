@@ -1,0 +1,15 @@
+body{
+    color: white;
+    position: relative;
+    background-color: rgb(23, 23, 77);
+}
+.container{
+    background-image:linear-gradient(to bottom right, rgba(26, 25, 25, 0.2), rgba(0, 0, 0, 0.5)) ,url("https://wallpapercave.com/wp/wp2560131.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 86vh;
+    margin: auto;
+    margin-top: 77px;
+}
