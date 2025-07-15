@@ -7,6 +7,7 @@ import SuperHero from './Pages/SuperHero'
 import Login from './Pages/Login'
 import FavHeroes from './Pages/FavHeroes'
 import { useState } from 'react'
+import Redux from './Pages/Redux'
 
 function App() {
   const [get, setget] = useState();
@@ -26,6 +27,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/views" element={<Views/>} />
           <Route path="/favhero" element={<FavHeroes/>}/>
+          <Route path="/redux" element={<Redux/>}/>
         </Routes>
       </BrowserRouter>
     </>

@@ -51,6 +51,7 @@ const Navbar = (props) => {
               Login
             </button>
           </Link>
+          <Link to={"/redux"}>redux</Link>
         </div>
       </nav>
     </>
